@@ -19,7 +19,7 @@ export default function App() {
     })
 
     const textPosition = opacidade.interpolate({
-        inputRange: [0, 0.7, 1],
+        inputRange: [0, 0.6, 1],
         outputRange: [-30, -30, 45],
     })
 
