@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.View`
   flex: 1;
-  background-color: rgb(138, 5, 190);
+  background-color: #8b10ae;
   justify-content: center;
   align-items: center;
 `;
@@ -25,5 +25,5 @@ export const Block = styled.Text`
   height: 40;
   width: 150;
   left: -110;
-  background-color: rgb(138, 5, 190);
+  background-color: #8b10ae;
 `;

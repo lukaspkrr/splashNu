@@ -1,34 +1,18 @@
 import React from 'react';
-import {StatusBar} from 'react-native';
 
-import {CardComponent} from './Components';
+import {Header, Menu, CardComponent, Tabs} from './Components';
 
-import {
-  Container,
-  Content,
-  Header,
-  HeaderContent,
-  HeaderImage,
-  HeaderIcon,
-  HeaderText,
-} from './styles';
-
-import logo from './../../assets/images/logo.png';
+import {Container, Content} from './styles';
 
 export default function Home() {
   return (
     <Container>
-      <StatusBar backgroundColor="rgb(138, 5, 190)" />
+      <Header />
       <Content>
-        <Header>
-          <HeaderContent>
-            <HeaderImage source={logo} resizeMode="contain" />
-            <HeaderText>Lucas</HeaderText>
-          </HeaderContent>
-          <HeaderIcon name="down" size={15} color="#fff" />
-        </Header>
+        {/* <Menu /> */}
         <CardComponent />
       </Content>
+      <Tabs />
     </Container>
   );
 }

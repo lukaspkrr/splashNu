@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {StatusBar, Animated} from 'react-native';
+import {Animated} from 'react-native';
 
 import {Container, Content, SplashText, Block} from './styles';
 
@@ -46,7 +46,6 @@ export default function App({navigation}) {
 
   return (
     <Container>
-      <StatusBar hidden translucent />
       <Content>
         <AnimatedText
           style={{
